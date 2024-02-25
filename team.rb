@@ -47,9 +47,6 @@ Swallows.show_team_result
 # クラス定義
 class Team
 
-  # インスタンスが持つ変数（値）
-  attr_accessor :name, :win, :lose, :draw
-
   # インスタンスを初期化するための、特別なメソッド
   def initialize(name, win, lose, draw)
     @name = name 
